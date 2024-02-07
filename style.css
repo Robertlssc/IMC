@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+}
+.container{
+    margin: 50px 25%;
+    background-color: aliceblue;
+    color: black;
+    height: 650px;
+    width: 50%;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.1)
+}
+.formulario{
+    height: auto;
+    width: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+#button{
+    width: 25%;
+    height: 50px;
+    margin: 25px 0px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.input{
+    margin-bottom: 25px;
+    height: 25px;
+    width: 50%;
+}
+h3{
+    font-size: 30px;
+}
+.IMC{
+    background-color: white;
+    border: solid black 1px;
+    width: 75%;
+    height: 25px;
+    margin: 50px auto;
+}
+h6{
+    font-size: 20px;
+    margin: 0;
+}
+button:hover{
+    transition: background-color 0.3s;
+    transition: border-color 0.3s;
+    transition: border-width 0.2s;
+    background-color: black;
+    border-color: aliceblue;
+    border-width: 5px;
+    color: white;
+    
+}
